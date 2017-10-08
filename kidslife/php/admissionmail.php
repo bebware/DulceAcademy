@@ -1,11 +1,11 @@
 <?php
 if(!$_POST) exit;
 
-  $to 	  = 'contact@dulce-academy.com'; 
+  $to 	  = 'contact@dulce-academy.com';
 	$name	  = $_POST['txtname'];
 	$age      = $_POST['txtage'];
 	$course   = $_POST['txtcourse'];
-    $comment  = $_POST['txtmessage'];
+  $comment  = $_POST['txtmessage'];
 
 	if(get_magic_quotes_gpc()) { $comment = stripslashes($comment); }
 
