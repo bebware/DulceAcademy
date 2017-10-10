@@ -1,7 +1,7 @@
 <?php
 if(!$_POST) exit;
 
-    $to 	  = 'contact@dulce-academy.com'; #Replace your email id...
+  $to 	  = 'contact@dulce-academy.com'; #Replace your email id...
 	$name	  = $_POST['txtname'];
 	$email    = $_POST['txtemail'];
 	$subject  = $_POST['txtsubject'];
